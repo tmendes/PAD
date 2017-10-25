@@ -9,11 +9,11 @@ Para este laboratório, você deverá produzir um relatório (arquivo no formato
 Os códigos fontes que você criou, além das instruções para compila-los (se puder providenciar um `makefile`, melhor) e executá-los devem estar disponíveis em um repositório Git e o relatório deve ser enviado pelo Moodle. Eventualmente, o relatório também pode estar disponível no repositório Git.
 
 ## Exercício
-Crie um programa serial e um programa paralelo com OpenMP que calcule a operação matricial D = A X B + C, onde todas as matrizes tem dimensões n x n. Prepare-se para gerar gráficos para cada um dos itens a seguir.
+Crie um programa serial e um programa paralelo com OpenMP que calcule a operação matricial D = A * B + C, onde todas as matrizes (A, B, C e D) têm dimensões n x n. Prepare-se para gerar gráficos para cada um dos itens a seguir.
 
-1. Calcule o tempo de execução do programa serial para matrizes de tamanho 10 X 10; 100 X 100; 1000 X 1000.
+1. Calcule o tempo de execução do programa serial para matrizes de tamanho n x n, onde n = 10, 100 e 1000.
 
-2. Calcule o tempo de execução do programa paralelo para matrizes de tamanhos 10 X 10; 100 X 100; 1000 X 1000, cada uma com 2, 4, 8, 16 e 32 _threads_.
+2. Calcule o tempo de execução do programa paralelo para matrizes de tamanho n x n, onde n = 10, 100 e 1000, cada uma com 2, 4, 8, 16 e 32 _threads_.
 
 3. Responda as perguntas a seguir no relatório:
    * Há necessidade de sincronização entre as _threads_ para resolver as operações?
