@@ -26,3 +26,7 @@ Para o item (1), a sugestão é a utilização de um `Makefile` que facilite a c
 Para o item (2), o relatório deve estar no formato PDF ou disponível no próprio servidor Git usando um arquivo na sintaxe Markdown. Outros formatos não serão aceitos.
 
 A falta de qualquer um dos itens acarretará em nota zero nesse componente de avaliação.
+
+#### Funções auxiliares
+No diretório `generateRandomMatrix` está o código fonte do programa que gera matrizes de números aleatórios. Os alunos podem melhorar ou adaptar o código disponível.
+

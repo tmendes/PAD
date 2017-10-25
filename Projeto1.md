@@ -25,7 +25,7 @@ O arquivo `calcPi.c`, no diretorio calcPi, possui um código serial para calcula
 
 ![calcPi](halfcalcPi.png "Cálculo do valor de Pi")
 
-Compile o programa calcPi.c e meça o tempo que demorou para produzir um resultado. Em seguida, implemente uma solução com a biblioteca PThreads, com 2, 4 e 8 _threads_. Prepare-se para gerar gráficos e responda as questões a seguir:
+Compile o programa `calcPi.c`' e meça o tempo que demorou para produzir um resultado. Em seguida, implemente uma solução com a biblioteca PThreads, com 2, 4 e 8 _threads_. Prepare-se para gerar gráficos e responda as questões a seguir:
 
 * Calcule o tempo total de execução do programa 2, 4 e 8 _threads_ e compare com o tempo de execução da versão serial.
 * Há necessidade de sincronização entre os _threads_?
