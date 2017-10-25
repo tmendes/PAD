@@ -11,9 +11,9 @@ Os códigos fontes que você criou, além das instruções para compila-los (se 
 ## Exercício 1
 Crie um programa serial e um programa paralelo com PThreads que calculem a multiplicação de duas matrizes cujos valores estarão em arquivos anexos. Ambos os programas devem aceitar matrizes com tamanhos (número de linhas e colunas) a serem informados pelos usuários. Prepare-se para gerar gráficos para cada um dos itens a seguir.
 
-1. Calcule o tempo de execução do programa serial para matrizes de tamanho 10 X 10; 100 X 100; 1000 X 1000.
+1. Calcule o tempo de execução do programa serial para matrizes de tamanho n x n, onde n = 10, 100 e 1000.
 
-2. Calcule o tempo de execução do programa paralelo para matrizes de tamanhos 10 X 10; 100 X 100; 1000 X 1000, cada uma com 2, 4 e 8 _threads_.
+2. Calcule o tempo de execução do programa paralelo para matrizes de tamanhos n x n, onde n = 10, 100 e 1000, cada uma com 2, 4 e 8 _threads_.
 
 3. Responda as perguntas a seguir no relatório:
    * Há necessidade de sincronização entre os _threads_ para resolver a multiplicação?
@@ -21,7 +21,9 @@ Crie um programa serial e um programa paralelo com PThreads que calculem a multi
    * Houve algum caso em que não houve _speedup_ em relação ao programa serial? Se houve, qual a razão para isso?
 
 ## Exercício 2
-O arquivo `calcPi.c` possui um código serial para calcular o número pi, que se baseia na seguinte equação:
+O arquivo `calcPi.c`, no diretorio calcPi, possui um código serial para calcular o número Pi, que se baseia na seguinte equação:
+
+![alt text](pi.png "Cálculo do valor de Pi")
 
 Compile o programa calcPi.c e meça o tempo que demorou para produzir um resultado. Em seguida, implemente uma solução com a biblioteca PThreads, com 2, 4 e 8 _threads_. Prepare-se para gerar gráficos e responda as questões a seguir:
 
