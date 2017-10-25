@@ -21,9 +21,9 @@ Crie um programa serial e um programa paralelo com PThreads que calculem a multi
    * Houve algum caso em que não houve _speedup_ em relação ao programa serial? Se houve, qual a razão para isso?
 
 ## Exercício 2
-O arquivo `calcPi.c`, no diretorio calcPi, possui um código serial para calcular o número Pi, que se baseia na seguinte equação:
+O arquivo `calcPi.c`, no diretorio calcPi, possui um código serial para calcular o número ![pi](pi.png "Pi"), que se baseia na seguinte equação: 
 
-![alt text](pi.png "Cálculo do valor de Pi")
+![calcPi](calcPi.png "Cálculo do valor de Pi")
 
 Compile o programa calcPi.c e meça o tempo que demorou para produzir um resultado. Em seguida, implemente uma solução com a biblioteca PThreads, com 2, 4 e 8 _threads_. Prepare-se para gerar gráficos e responda as questões a seguir:
 
