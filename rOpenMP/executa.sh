@@ -1,0 +1,33 @@
+./generateRandomMatrix 10 10 1 1 10a
+./generateRandomMatrix 10 10 1 1 10b
+./generateRandomMatrix 10 10 1 1 10c
+
+./generateRandomMatrix 100 100 1 1 100a
+./generateRandomMatrix 100 100 1 1 100b
+./generateRandomMatrix 100 100 1 1 100c
+
+./generateRandomMatrix 1000 1000 1 1 1000a
+./generateRandomMatrix 1000 1000 1 1 1000b
+./generateRandomMatrix 1000 1000 1 1 1000c
+
+./mMatOpen 2 10 10 10a 10 10 10b 10 10 10c
+./mMatOpen 4 10 10 10a 10 10 10b 10 10 10c
+./mMatOpen 8 10 10 10a 10 10 10b 10 10 10c
+./mMatOpen 16 10 10 10a 10 10 10b 10 10 10c
+./mMatOpen 32 10 10 10a 10 10 10b 10 10 10c
+
+./mMatOpen 2 100 100 100a 100 100 100b 100 100 100c
+./mMatOpen 4 100 100 100a 100 100 100b 100 100 100c
+./mMatOpen 8 100 100 100a 100 100 100b 100 100 100c
+./mMatOpen 16 100 100 100a 100 100 100b 100 100 100c
+./mMatOpen 32 100 100 100a 100 100 100b 100 100 100c
+
+./mMatOpen 2 1000 1000 1000a 1000 1000 1000b 1000 1000 1000c
+./mMatOpen 4 1000 1000 1000a 1000 1000 1000b 1000 1000 1000c
+./mMatOpen 8 1000 1000 1000a 1000 1000 1000b 1000 1000 1000c
+./mMatOpen 16 1000 1000 1000a 1000 1000 1000b 1000 1000 1000c
+./mMatOpen 32 1000 1000 1000a 1000 1000 1000b 1000 1000 1000c
+
+./mMatSerial 10 10 10a 10 10 10b 10 10 10c
+./mMatSerial 100 100 100a 100 100 100b 100 100 100c
+./mMatSerial 1000 1000 1000a 1000 1000 1000b 1000 1000 1000c
